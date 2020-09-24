@@ -43,7 +43,7 @@ function Navigation() {
                 <Container >
                     <AppBar className={classes.appBar} position="fixed">
                         <Tabs value={selectedTab} onChange={handleChange} centered>
-                            <Link activeClass="active" to="home"  spy={true} smooth={true} duration={500} >
+                            <Link activeClass="active" to="home"  spy={true} smooth={true} duration={500}>
                                <Tab label="Home" />
                             </Link>
                             <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}>

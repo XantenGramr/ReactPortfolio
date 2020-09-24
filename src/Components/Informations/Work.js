@@ -8,15 +8,18 @@ const useStyles = makeStyles((theme) => ({
         fontSize: theme.typography.pxToRem(15),
         flexBasis: '33.33%',
         flexShrink: 0,
+        fontFamily: "Lucida Console",
     },
     secondaryHeading: {
         fontSize: theme.typography.pxToRem(15),
         flexBasis: '33.33%',
         color: theme.palette.text.secondary,
+        fontFamily: "Lucida Console",
     },
     date: {
         fontSize: theme.typography.pxToRem(15),
         color: theme.palette.text.secondary,
+        fontFamily: "Lucida Console",
     },
 }));
 
@@ -38,10 +41,11 @@ function Work() {
                 <Typography className={classes.date}>August 2020 - Present</Typography>
             </AccordionSummary>
             <AccordionDetails>
-                <Typography>
-                    Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat. Aliquam eget
-                    maximus est, id dignissim quam.
-                </Typography>
+                <p>
+                    <Typography>
+                        Created this react project.
+                    </Typography>
+                </p>
             </AccordionDetails>
         </Accordion>
         <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
@@ -51,10 +55,14 @@ function Work() {
                 <Typography className={classes.date}>January 2017 - June 2020</Typography>
             </AccordionSummary>
             <AccordionDetails>
-                <Typography>
-                    Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus, varius pulvinar
-                    diam eros in elit. Pellentesque convallis laoreet laoreet.
-                </Typography>
+                <p>
+                    <Typography>
+                        5G Radio Link Control Expert and Design/Code Reviewer.
+                    </Typography>
+                    <Typography>
+                        Designed and implemented software architecture for high throughput requirements of 5G 3GPP.
+                    </Typography>
+                </p>
             </AccordionDetails>
         </Accordion>
         <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
@@ -64,10 +72,11 @@ function Work() {
                 <Typography className={classes.date}>January 2015 - October 2016</Typography>
             </AccordionSummary>
             <AccordionDetails>
-                <Typography>
-                    Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus, varius pulvinar
-                    diam eros in elit. Pellentesque convallis laoreet laoreet.
-                </Typography>
+                <p>
+                    <Typography>
+                        Developed User Interface (java) for Cambodia Branch. Prepared and developed test scenarios for given features.
+                    </Typography>
+                </p>
             </AccordionDetails>
         </Accordion>
         </>

@@ -6,7 +6,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "#846E01"
     },
     appBar: {
-        backgroundColor: "#846E01"
+        backgroundColor: "#846E01",
     },
     baseContainer: {
         paddingTop: "20vh",
@@ -26,7 +26,8 @@ const useStyles = makeStyles((theme) => ({
     },
     objects: {
         opacity: 1,
-        color: "#d5d5d5"
+        color: "#d5d5d5",
+        fontFamily: "Lucida Console",
     },
     details: {
         textAlign: "left"

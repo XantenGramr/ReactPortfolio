@@ -6,7 +6,6 @@ function AboutMe() {
         <>
         <h1>About Me</h1>
         <Divider/>
-        <p>Something Something Something blah blah blah</p>
         </>
     );
 }
